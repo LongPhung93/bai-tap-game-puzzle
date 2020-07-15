@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <img id="img1" onclick="changeImage1(img1)" src="images/img1.jpg" alt="" /><br>
+    <img id="img2" onclick="changeImage2(img2)" src="images/img2.jpg" alt="" /><br>
+    <img id="img3" onclick="changeImage3(img3)" src="images/img3.jpg" alt="" /><br>
+    <img id="img4" onclick="changeImage4(img4)" src="images/img4.jpg" alt="" /><br>
+    <img id="img5" onclick="changeImage5(img5)" src="images/img5.jpg" alt="" />
+</div>
+<script>
+
+    function changeImage1(img1) {
+        let x = Math.floor(Math.random()*(6-1)+1);
+        debugger
+        let imgName = "images/img" + x + ".jpg";
+        document.getElementById("img1").src = imgName;
+    }
+    function changeImage2(img2) {
+        let x = Math.floor(Math.random()*(6-1)+1);
+        debugger
+        let imgName = "images/img" + x + ".jpg";
+        document.getElementById("img2").src = imgName;
+    }
+    function changeImage3(img3) {
+        let x = Math.floor(Math.random()*(6-1)+1);
+        debugger
+        let imgName = "images/img" + x + ".jpg";
+        document.getElementById("img3").src = imgName;
+    }
+    function changeImage4(img4) {
+        let x = Math.floor(Math.random()*(6-1)+1);
+        debugger
+        let imgName = "images/img" + x + ".jpg";
+        document.getElementById("img4").src = imgName;
+    }
+    function changeImage5(img5) {
+        let x = Math.floor(Math.random()*(6-1)+1);
+        debugger
+        let imgName = "images/img" + x + ".jpg";
+        document.getElementById("img5").src = imgName;
+    }
+</script>
+
+</body>
+</html>
